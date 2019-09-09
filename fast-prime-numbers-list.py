@@ -17,4 +17,3 @@ def primes(n):
 		m=2*i+3
 	return [2]+[x for x in s if x]
 print primes(1000000)
-//http://code.activestate.com/recipes/366178-a-fast-prime-number-list-generator/
